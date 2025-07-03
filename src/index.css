@@ -40,7 +40,7 @@ body {
   border-radius: 30px;
   font-size: 1rem;
   cursor: pointer;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .fetch-btn:hover {
@@ -74,6 +74,15 @@ body {
 
 .status.error {
   color: red;
+}
+
+.tag-btn {
+  margin: 5px;
+  padding: 5px 20px;
+  border-radius: 30px;
+  background-color: #fff0f5;
+  border: 1px solid #ffb6c1;
+  cursor: pointer;
 }
 
 
