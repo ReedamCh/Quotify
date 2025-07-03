@@ -4,17 +4,19 @@ import QuoteCard from './components/QuoteCard';
 import './App.css';
 
 function App() {
-  const { quote, fetchQuote, loading, error, tags, fetchTags } = useContext(QuoteContext);
+  const { quote, fetchQuote, loading, error, tags } = useContext(QuoteContext);
 
   return (
     <div className="app-container">
       <h1 className="app-title">Quotify 💬</h1>
       <QuoteCard quote={quote} loading={loading} error={error} />
-      <button className="fetch-btn" onClick={fetchQuote}>Fetch New Quote</button>
+      <button className="fetch-btn" onClick={() => fetchQuote()}>Fetch New Quote</button>
       <div className="tag-container">
       {
         tags.data && tags.data.map((tag) => {
-          return <button className="tag-btn" onClick={() => fetchQuote(tag.slug)} key={tag.id}>{tag.name}</button>;
+          if(tag.quoteCount)
+            return <button className="tag-btn" onClick={() => fetchQuote(tag.slug)} key={tag.id}>{tag.name}</button>;
+          else return '';
         })
       }
       </div>
