@@ -10,6 +10,7 @@ Still a work in progress, but already looking pretty cute.
 - Fetches a random quote using an API.
 - Shows the quote and the author in a card.
 - You can click a button to get a new quote.
+- You can choose quote category (like love, life, motivation) 
 
 ---
 
@@ -31,9 +32,8 @@ Also, I love quotes – so this just felt right!
 
 ## 🪄 Future Features (Hopefully Soon)
 
-- Save quotes you love 💖  
-- Choose quote category (like love, life, motivation)  
-- Maybe even a dark mode...?(Might use ChakraUI for theme modes)
+- Save quotes you love 💖   
+- Maybe a dark mode...?(Might use ChakraUI for theme modes)
 
 ---
 
