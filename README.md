@@ -32,8 +32,9 @@ Also, I love quotes – so this just felt right!
 
 ## 🪄 Future Features (Hopefully Soon)
 
-- Save quotes you love 💖   
-- Maybe a dark mode...?(Might use ChakraUI for theme modes)
+- Save quotes you love 💖
+- Share via social media 🫂
+- Maybe a dark mode...?(Might use ChakraUI for theme modes)🌓
 
 ---
 
